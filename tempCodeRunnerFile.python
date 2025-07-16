@@ -1,0 +1,6 @@
+x,y = map(int,input().split())
+listt=[]
+for i in range(y):
+        listt.append(input().split())
+        print(sum(listt[i])/x)
+        
